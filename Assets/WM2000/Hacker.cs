@@ -106,7 +106,7 @@ public class Hacker : MonoBehaviour
         currentScreen = Screen.Win;
         Terminal.ClearScreen();
         ShowLevelReward();
-        Terminal.WriteLine("ACCESS GRANTED");
+        Terminal.WriteLine("ACCESS GRANTED. Type menu to go back.");
     }
 
     private void ShowLevelReward()
