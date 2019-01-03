@@ -1,0 +1,2 @@
+C:\Users\tuana\Documents\Repos\Unity\2_Terminal_Hacker\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\tuana\Documents\Repos\Unity\2_Terminal_Hacker\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
