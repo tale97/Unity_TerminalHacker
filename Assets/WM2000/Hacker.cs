@@ -33,10 +33,16 @@ public class Hacker : MonoBehaviour
 
     void OnUserInput(string input)
     {
-        if (input == "menu")
+        // go back to menu at anytime
+        if (input == "menu" || input == "back" || input == "again" || input == "play again")
         {
             ShowMainMenu("Welcome back, Tuan");
-        } // TODO handle differently depending on screen
+        } // quit application
+        else if (input == "quit" || input == "exit" || input == "close")
+        {
+            Terminal.WriteLine("If on the web. Close the tab");
+            Application.Quit();
+        }
         else if (currentScreen == Screen.MainMenu)
         {
             RunMainMenu(input);
